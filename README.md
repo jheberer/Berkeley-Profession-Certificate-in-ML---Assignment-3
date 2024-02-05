@@ -30,12 +30,24 @@ After finalizing data preparations, we ran a series of four models on the data. 
 
 ## Results
 The logistic regression and SVM models performed best--both exceeded baseline, albeit marginally.
+![image](https://github.com/jheberer/Berkeley-Profession-Certificate-in-ML---Assignment-3/assets/7217117/1f4e4c75-a99e-4ea5-bbbf-b032c868985a)
 
 
 After selecting these as the champion models, we attempted to optimize their performance. In both cases we were unsuccessful, possibly due to the imbalanced nature of the data (many more no's than yes's), and possibly due to ovefitting.
 Follow-up is recommended.
+In terms of features that made the likelihood of subscription higher:
+1. more education
+2. retired, or currently a student
+3. educated from university
+4. single
+
+Those that had a deleterious effect:
+1. blue collar job
+2. divorced
+3. lower educational attainment
 
 ## Business Recommendations
+The model should be implemented immediately. The bank should target students and highly educated individuals, with an emphasis on single individuals.
 
 ## Next Steps
 Get more useful data. This can be done by resampling existing population, or adding weights to the positive class.
